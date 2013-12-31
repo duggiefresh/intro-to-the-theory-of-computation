@@ -95,3 +95,19 @@ and last nodes.
 * **Directed graph**: a graph that has arrows instead of lines
   * *outdegree*: arrows pointing out from a particular node.
   * *indegree*: arrows pointing into a particular node.
+
+## Strings and Languages
+
+* **Lexicographic order**: same as the familiar dictionary order.
+
+## Boolean Logic
+
+**Boolean logic** is a mathematical system built around the two values *TRUE* and
+*FALSE*. We can manupulate Boolean values with *Boolean operations*.
+
+* **Negation**: *NOT*
+* **Conjunction**: *AND*
+* **Disjunction**: *OR*
+* **Exclusive or**: *XOR*
+* **Equality**
+* **Implication**
