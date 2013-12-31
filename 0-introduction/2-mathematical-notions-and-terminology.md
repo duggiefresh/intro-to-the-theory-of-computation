@@ -78,3 +78,20 @@ A *function* is an object that sets up an input-output relationship.
 * **Binary function**: given name to a function with two arguments.
 
 ## Graphs
+
+* **Undirected graph** or **graph**: is a set of points with lines connecting some
+of the points, also known as *nodes* or *vertices*. Connecting lines are known as
+*edges*.
+* **Degree**: the number of edges at a particular node.
+* **Subgraph**: a graph that contains nodes that are a subset of another graph's nodes,
+likewise for its edges..
+* **Path**: a sequence, within a graph, of nodes connected by edges.
+* **Simple path**: a path that doesn't repeat any nodes. A graph is *connected* if every
+two nodes have a path between them.
+* **Cycle**: a path that starts and ends in the same node.
+* **Simple cycle**: one that contains at least three nodes and repeaats only the first
+and last nodes.
+* **Tree**: a graph that is connected and has no simple cycles.
+* **Directed graph**: a graph that has arrows instead of lines
+  * *outdegree*: arrows pointing out from a particular node.
+  * *indegree*: arrows pointing into a particular node.
