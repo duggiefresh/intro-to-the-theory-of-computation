@@ -67,3 +67,14 @@ A = {1,2}
 B = {x, y, z}
 A x B = {(1,x),(1,y),(1,z),(2,x),(2,y),(2,z)}
 ```
+
+## Functions and Relations
+
+A *function* is an object that sets up an input-output relationship.
+
+* **Domain**: a set of possible inputs to the function.
+* **Range**: outputs of a function that come from a set
+* **Unary function**: given name to a function with one argument.
+* **Binary function**: given name to a function with two arguments.
+
+## Graphs
