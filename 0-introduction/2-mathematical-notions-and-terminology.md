@@ -43,3 +43,27 @@ Let's imagine two sets, *A* and *B*:
 * **Union**: is the set we get by combining all elements in *A* and *B* into a single set.
 * **Intersection**: a set of elements that are both in *A* and *B*
 * **Complement**: a set of all elements under consideration that are *not* in *A*.
+
+## Sequence and Tuples
+
+A **sequence** of objects is a list of these objects in some order, usually noted as
+a list within parentheses, `(7,21,57)`. Order does not matter in a set, however, in a
+sequence it order does matter. `(7,21,57)` is not equal to `(21,7,57)`. Repetition
+does matter in a sequence as well.
+
+Sequences, just like sets, may be finite or infinite. Finite sequences are called
+**tuples**. A sequence with *k* elements is called a **k-tuple**, so `(7,21,57)` is
+a 3-tuple. A 2-tuple is also known as an **ordered pair**.
+
+Sets and sequences may appear as elements of other sets and sequences. For example,
+the **power set** of *A* is the set of all subsets of *A*.
+
+If *A* and *B* are two sets, the **Cartesian product** or **cross product** is written
+as *A x B*, where the set of all ordered pairs wherein the first element is a member of
+*A* and the second element is a member of *B*.
+
+```
+A = {1,2}
+B = {x, y, z}
+A x B = {(1,x),(1,y),(1,z),(2,x),(2,y),(2,z)}
+```
